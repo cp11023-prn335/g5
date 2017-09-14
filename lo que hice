@@ -1,0 +1,7 @@
+select c.comentario from cometario c where
+
+select p.id_post,p.descripcion from Post p where p.aprobacion_comentarios=false and p.fecha<5
+
+select p.idPost,pm.idPost,m.descripcion from Post join PostMeta pm join Meta where p.idPost=pm.idPost and pm.idPost=m.idMeta and m.nombre='SENSURADO' 
+
+SELECT c FROM Categoria c WHERE c.descripcion='' ORDER BY c.idCategoria ASC 
